@@ -73,6 +73,6 @@ notes = cellVectors(:,2);
 % For code requiring serial dates (datenum) instead of datetime, uncomment
 % the following line(s) below to return the imported dates as datenum(s).
 
-% startTime=datenum(startTime);
-% endTime=datenum(endTime);
+startTime=datenum(startTime);
+endTime=datenum(endTime);
 
